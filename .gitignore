@@ -2,12 +2,12 @@
 
 # dependencies
 node_modules
+.history
 .pnp
 .pnp.js
 
 # testing
 coverage
-
 # production
 build
 
