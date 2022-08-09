@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/JLV/static/css/main.5b6d90b7.css",
+    "main.js": "/JLV/static/js/main.362231d4.js",
+    "static/media/Bg.jpg": "/JLV/static/media/Bg.b659b26588d491fdaca0.jpg",
+    "static/media/bg-2.png": "/JLV/static/media/bg-2.82546537d7d35e711ae1.png",
+    "static/media/Farm2.jpg": "/JLV/static/media/Farm2.64f16a4cdbba82ae2c83.jpg",
+    "static/media/about-vision.png": "/JLV/static/media/about-vision.f791e539b2580c686fda.png",
+    "static/media/about-pic.png": "/JLV/static/media/about-pic.c81ab30c0cbb44c137c6.png",
+    "static/media/Slide-1.png": "/JLV/static/media/Slide-1.330ef98f12765da1e29f.png",
+    "static/media/gal-7.png": "/JLV/static/media/gal-7.7a0ecd8c43a0c050bf35.png",
+    "static/media/about-img-1.png": "/JLV/static/media/about-img-1.42ee4ef4feed1296b25a.png",
+    "static/media/gal-2.png": "/JLV/static/media/gal-2.42c3c405e3f0769a161d.png",
+    "static/media/Slide-3.png": "/JLV/static/media/Slide-3.222b386f1b67e40a1d89.png",
+    "static/media/gal-3.png": "/JLV/static/media/gal-3.a670312cb1e241f73dac.png",
+    "static/media/gal-5.png": "/JLV/static/media/gal-5.c3c09c152ed8e7d87442.png",
+    "static/media/gal-1.png": "/JLV/static/media/gal-1.71045e8c8f0ef1ece762.png",
+    "static/media/gal-6.png": "/JLV/static/media/gal-6.f49d5bb8bec233abab15.png",
+    "static/media/gal-8.png": "/JLV/static/media/gal-8.599b95c9779363164977.png",
+    "static/media/Slide-2.png": "/JLV/static/media/Slide-2.8420bca1c2c327a70f28.png",
+    "static/media/Card-2.png": "/JLV/static/media/Card-2.034622d706a0e8cf6bd2.png",
+    "static/media/gal-4.png": "/JLV/static/media/gal-4.a62e4d72f98377ab4fb4.png",
+    "static/media/about-img-3.png": "/JLV/static/media/about-img-3.4067ff4bf7ba78d45113.png",
+    "static/media/Card-1.png": "/JLV/static/media/Card-1.1547147ac4e18feb8839.png",
+    "static/media/about-img-2.png": "/JLV/static/media/about-img-2.47a298104400fd89f940.png",
+    "static/media/Mission.png": "/JLV/static/media/Mission.fd14082995b8289a48db.png",
+    "static/media/Vision.png": "/JLV/static/media/Vision.fd05c441e630d5d69530.png",
+    "static/media/icon-1.png": "/JLV/static/media/icon-1.0ad6a7c079dd60790150.png",
+    "static/media/Logo.png": "/JLV/static/media/Logo.2d195d10f5b3033dca42.png",
+    "index.html": "/JLV/index.html",
+    "main.5b6d90b7.css.map": "/JLV/static/css/main.5b6d90b7.css.map",
+    "main.362231d4.js.map": "/JLV/static/js/main.362231d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b6d90b7.css",
+    "static/js/main.362231d4.js"
+  ]
+}
