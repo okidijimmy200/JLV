@@ -2,7 +2,8 @@ import React from 'react'
 import Enterprise from '../enterprises/Enterprise'
 import './Vision.scss'
 
-const VisonPic = require('../../../images/cow.jpg')
+const MissionPic = require('../../../images/Mission.png')
+const VisonPic = require('../../../images/Vision.png')
 
 export default function Vision() {
   return (
@@ -14,7 +15,7 @@ export default function Vision() {
                   <div className='vision__box'>
                     <div className='vision__box-1'>
                       <div className='vision__box-1-heading'>
-                      <img src={VisonPic} alt='vision__pic' className='vision__pic'/>
+                      <img src={MissionPic} alt='vision__pic' className='vision__pic'/>
                       <h2>Our Mission</h2>
                     </div>
                     <div>

@@ -1,13 +1,15 @@
 import React from 'react'
 import {GiFarmTractor} from 'react-icons/gi'
 
+const Logo = require('../images/Logo.png')
 export default function Nav() {
   return (
     <>
                     <div className='nav'>
                         <div className="header__logo-box">
                 <div className='header__logo'>
-                        <div className='header__logo__icon'><GiFarmTractor color="white" fontSize="3rem"/></div>
+                        {/* <div className='header__logo__icon'><GiFarmTractor color="white" fontSize="3rem"/></div> */}
+                        <div className='header__logo__icon'><img src={Logo} alt='logo' className='header__logo__icon--size'/></div>
                         <div className='header__logo__text'>JLV Mixed Farm</div>
                 </div>
                         

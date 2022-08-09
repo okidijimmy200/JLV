@@ -7,7 +7,7 @@
         to left bottom,
         rgba(#225901, 100),
         rgba(#04220700, 0.3)), 
-        url(../../../images/Farm2.jpg);   
+        url(../../../images/bg-2.png);   
     background-size: cover;  /* background cover takes over the width of view port */   
     background-position: top; 
 
@@ -48,7 +48,7 @@
 
         &__picture {
             flex: 1;
-            background-image: url(../../../images/Farm3.jpg);
+            background-image: url(../../../images/about-pic.png);
         }
 
     }

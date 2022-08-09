@@ -1,9 +1,9 @@
 import React from 'react'
 import './AboutFeature.scss'
 
-const Farm1 = require('../../../images/farm.jpg')
-const Farm2 = require('../../../images/Farm2.jpg')
-const Farm3 = require('../../../images/Farm3.jpg')
+const Farm1 = require('../../../images/Slide-1.png')
+const Farm2 = require('../../../images/Slide-2.png')
+const Farm3 = require('../../../images/Slide-3.png')
 
 
 export default function AboutFeature() {

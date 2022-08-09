@@ -1,5 +1,10 @@
 import React from 'react'
-
+import {
+  AiFillFacebook, 
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiFillYoutube,
+  AiFillInstagram} from 'react-icons/ai'
 import './Footer.scss'
 
 export default function Footer() {
@@ -74,7 +79,14 @@ export default function Footer() {
           <div className=''>
             @2022 JLV Enterprises.All rights reserved
           </div>
-          <div></div>
+          <div className='Footer__part2--icons'>
+                  <div ><AiFillFacebook color="#fff" fontSize="2rem"/></div>
+                  <div><AiFillLinkedin color="#fff" fontSize="2rem"/></div>
+                  <div><AiFillTwitterCircle color="#fff" fontSize="2rem"/></div>
+                  <div><AiFillInstagram color="#fff" fontSize="2rem"/></div>
+                  <div><AiFillYoutube color="#fff" fontSize="2rem"/></div>    
+                  
+            </div>
           <div>Terms and conditions apply</div>
         </div>
       </div>

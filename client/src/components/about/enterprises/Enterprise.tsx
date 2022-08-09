@@ -8,7 +8,9 @@ import { CardActionArea } from '@mui/material';
 
 import './Enterprise.scss'
 
-const Cottage = require('../../../images/cottage.jpg')
+const Img1 = require('../../../images/about-img-1.png')
+const Img2 = require('../../../images/about-img-2.png')
+const Img3 = require('../../../images/about-img-3.png')
 
 const useStyles = makeStyles({
   root: {
@@ -41,7 +43,7 @@ export default function Enterprise() {
         <CardMedia
           component="img"
           height="140"
-          image={Cottage}
+          image={Img1}
           alt="green iguana"
           className={classes.pic}
         />
@@ -62,7 +64,7 @@ export default function Enterprise() {
         <CardMedia
           component="img"
           height="140"
-          image={Cottage}
+          image={Img2}
           alt="green iguana"
           className={classes.pic}
         />
@@ -83,7 +85,7 @@ export default function Enterprise() {
         <CardMedia
           component="img"
           height="140"
-          image={Cottage}
+          image={Img3}
           alt="green iguana"
           className={classes.pic}
         />

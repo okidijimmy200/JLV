@@ -9,8 +9,8 @@ import {BiTimeFive} from 'react-icons/bi'
 
 import './Objective.scss'
 
-const Farm1 = require('../../../images/farm.jpg')
-const Cottage = require('../../../images/cottage.jpg')
+const Farm1 = require('../../../images/Card-2.png')
+const Cottage = require('../../../images/Card-1.png')
 
 const useStyles = makeStyles({
   root: {
