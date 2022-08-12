@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/JLV/static/css/main.5b6d90b7.css",
-    "main.js": "/JLV/static/js/main.c0cff456.js",
+    "main.css": "/JLV/static/css/main.17059924.css",
+    "main.js": "/JLV/static/js/main.7f5ed184.js",
     "static/media/Bg.jpg": "/JLV/static/media/Bg.b659b26588d491fdaca0.jpg",
-    "static/media/bg-2.png": "/JLV/static/media/bg-2.82546537d7d35e711ae1.png",
     "static/media/Farm2.jpg": "/JLV/static/media/Farm2.64f16a4cdbba82ae2c83.jpg",
     "static/media/about-vision.png": "/JLV/static/media/about-vision.f791e539b2580c686fda.png",
     "static/media/about-pic.png": "/JLV/static/media/about-pic.c81ab30c0cbb44c137c6.png",
@@ -21,6 +20,7 @@
     "static/media/Card-2.png": "/JLV/static/media/Card-2.034622d706a0e8cf6bd2.png",
     "static/media/gal-4.png": "/JLV/static/media/gal-4.a62e4d72f98377ab4fb4.png",
     "static/media/about-img-3.png": "/JLV/static/media/about-img-3.4067ff4bf7ba78d45113.png",
+    "static/media/bg-about.jpeg": "/JLV/static/media/bg-about.e15355a9c8ddd5a5cf01.jpeg",
     "static/media/Card-1.png": "/JLV/static/media/Card-1.1547147ac4e18feb8839.png",
     "static/media/about-img-2.png": "/JLV/static/media/about-img-2.47a298104400fd89f940.png",
     "static/media/Mission.png": "/JLV/static/media/Mission.fd14082995b8289a48db.png",
@@ -28,11 +28,11 @@
     "static/media/icon-1.png": "/JLV/static/media/icon-1.0ad6a7c079dd60790150.png",
     "static/media/Logo.png": "/JLV/static/media/Logo.2d195d10f5b3033dca42.png",
     "index.html": "/JLV/index.html",
-    "main.5b6d90b7.css.map": "/JLV/static/css/main.5b6d90b7.css.map",
-    "main.c0cff456.js.map": "/JLV/static/js/main.c0cff456.js.map"
+    "main.17059924.css.map": "/JLV/static/css/main.17059924.css.map",
+    "main.7f5ed184.js.map": "/JLV/static/js/main.7f5ed184.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b6d90b7.css",
-    "static/js/main.c0cff456.js"
+    "static/css/main.17059924.css",
+    "static/js/main.7f5ed184.js"
   ]
 }
