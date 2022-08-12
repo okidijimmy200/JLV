@@ -1,10 +1,13 @@
 import React from 'react'
 import {
+  AiOutlineMail, 
+  AiOutlineWhatsApp,
   AiFillFacebook, 
   AiFillLinkedin,
   AiFillTwitterCircle,
   AiFillYoutube,
   AiFillInstagram} from 'react-icons/ai'
+import {GoLocation} from 'react-icons/go'
 import './Footer.scss'
 
 export default function Footer() {
@@ -18,7 +21,7 @@ export default function Footer() {
             </div>
             <div className='Footer__detail'>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Id aut commodi pariatur maiores numquam eaque magni dolore, quasi eligendi odio fuga deleniti quisquam perspiciatis distinctio fugit animi consectetur nisi esse.</p>
+                Id aut commodi pariatur maiores numquam eaque magni dolore, quasi eligendi odio fuga deleniti quisquam.</p>
             </div>
           </div>
           <div className='Footer__bullets'>
@@ -67,16 +70,16 @@ export default function Footer() {
               <h2>Contact Us</h2>
             </div>
             <div className='Footer__bullets--1'>
-              <ul>
-                <li>Rubaga Sub-County - 18km from Biharwe</li>
-                <li>hello@jlventureprises.com</li>
-                <li>+256 700 899 265</li>
+              <ul className='locationBullets'>
+                <li><GoLocation />Rubaga Sub-County - 18km from Biharwe</li>
+                <li><AiOutlineMail/> hello@jlventureprises.com</li>
+                <li><AiOutlineWhatsApp/> +256 700 899 265</li>
               </ul>
             </div>
           </div>
         </div>
         <div className='Footer__part2'>
-          <div className=''>
+          <div className='Footer__copyright'>
             @2022 JLV Enterprises.All rights reserved
           </div>
           <div className='Footer__part2--icons'>
@@ -87,7 +90,7 @@ export default function Footer() {
                   <div><AiFillYoutube color="#fff" fontSize="2rem"/></div>    
                   
             </div>
-          <div>Terms and conditions apply</div>
+          <div className='Footer__terms'>Terms and conditions apply</div>
         </div>
       </div>
     </div>
