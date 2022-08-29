@@ -27,7 +27,6 @@ export default function AboutFeature() {
                         <p className="paragraph">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus error eum doloremque.
                         </p>
-                        <a href="" className="btn-text">Learn More &rarr;</a>
                     </div>
         </div>
                             

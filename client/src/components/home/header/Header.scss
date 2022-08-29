@@ -13,13 +13,6 @@
 
     // nesting the elements
     /* styling the logo */
-    &__logo-box {
-        /* use absolute positioning */
-        // position: absolute;
-        // top:4rem;
-        // left:4rem;
-        /* we need to have a refrence to count 40px top and left from. we get it from header, so the header part is placed to position relative to logo-box */
-    }
 
     &__logo {
      display: flex;
@@ -119,12 +112,45 @@
         &__item  {
         font-size: 1.7rem;
         font-weight: 600;
-        color: #fff;
-        cursor: pointer;
-            &:not(:last-child) {
+        &:not(:last-child) {
                 margin-right: 5rem;
-            }
         }
-        
+            
     }
+        &__link {
+            text-decoration: none;
+            color: #fff; 
+            cursor: pointer;
+            &:hover {
+                color: #70FF00;
+            }
+            &::after {
+                content: "";
+                display: block;
+                margin: auto;
+                height: 3px;
+                width: 0;
+                top: 5px;
+                background: transparent;
+                transition: all 0.3s;
+                
+              }
+              &:hover::after {
+                width: 100%;
+                background: #70FF00;
+                color: #70FF00;
+              }
+        }
+
+        &__active-nav {
+            color: #70FF00;
+            text-decoration: none;
+            border-bottom: 3.5px solid #70FF00;
+            padding: .4rem;
+        }
+    }
+}
+
+.heading-title {
+    color: #348403 !important;
 }

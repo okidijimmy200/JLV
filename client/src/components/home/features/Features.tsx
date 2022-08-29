@@ -42,7 +42,7 @@ export default function Features() {
 
                     </div>
                     <div className="wraper">
-  <h1 className='heading-secondary'>Why Choose Us?</h1>
+  <h1 className='heading-secondary heading-title'>Why Choose Us?</h1>
 
 <div className='text'>
     <div className='text__box'><h2 className='text__paragraph1'>Modern Farming Experience</h2></div>
