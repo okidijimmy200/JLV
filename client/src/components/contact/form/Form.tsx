@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import Card from '@material-ui/core/Card'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
+import emailjs from '@emailjs/browser';
 
 import './Form.scss'
 
@@ -32,12 +33,43 @@ const useStyles = makeStyles(theme => ({
     submit: {
       marginRight: 15,
       marginBottom: 16,
-      backgroundColor: '#225901'
+      backgroundColor: '#225901',
+      '&:hover': {
+        backgroundColor: '#225901'
+      }
     }
   }))
 
 export default function Form() {
     const classes = useStyles()
+    const form = useRef<HTMLFormElement | null>(null);
+    const [values, setValues] = useState({
+      name: '',
+      email: '',
+      message: ''
+    })
+
+    const handleChange = (name: any) => (event: any) => {
+      setValues({ ...values, [name]: event.target.value })
+    }
+
+    const sendEmail = (e: any) => {
+      e.preventDefault();
+  
+    if (!form.current){
+        return;
+    }
+      emailjs.sendForm(
+        'service_aanza5p', 
+        'template_mfiwm5s', 
+        form.current, 'KK7gLCvHXjaZTXujO')
+        .then((result) => {
+            console.log(result.text);
+            setValues({ ...values, name: '', email: '', message: ''})
+        }, (error: any) => {
+            console.log(error.text);
+        });
+    };
   return (
     <>
           <Card className={classes.card}>
@@ -45,21 +77,27 @@ export default function Form() {
           <Typography variant="h4" className={classes.title}>
             JLV Mixed Farm
           </Typography>
+          <form ref={form} onSubmit={sendEmail}>
           <TextField 
           id="name" 
+          value={values.name} onChange={handleChange('name')}
           label="Name"
+          name="to_name"
           InputLabelProps={{ style: { fontSize: 20 } }}
           inputProps={{style: {fontSize: 16}}} 
           className={classes.textField} 
           margin="normal"/><br/>
           <TextField
-           id="email" type="email" 
+           id="email" type="email" name="from_name"
+           value={values.email} onChange={handleChange('email')}
            InputLabelProps={{ style: { fontSize: 20 } }}
            inputProps={{style: {fontSize: 16}}}
            label="Email Address" 
            className={classes.textField} 
            margin="normal"/><br/>
           <TextField
+                name="message"
+                value={values.message} onChange={handleChange('message')}
                 InputLabelProps={{ style: { fontSize: 20 } }}
                 inputProps={{style: {fontSize: 16}}}
                 multiline
@@ -69,9 +107,11 @@ export default function Form() {
                 variant="outlined"
                 id="outlined-basic"
                 margin="normal"/>
+          </form>
+
         </CardContent>
         <CardActions>
-          <Button color="primary" variant="contained" className={classes.submit}>Submit</Button>
+          <Button color="primary" variant="contained" className={classes.submit} onClick={sendEmail}>Submit</Button>
         </CardActions>
       </Card>
     </>

@@ -12,14 +12,15 @@ export default function AboutFeature() {
         <div className='row'>
         <div className="col-1-of-2">
                         <div className="composition">
-                            <img src={Farm1} alt="photo 1" className="composition__photo composition__photo--p1"/>
-                            <img src={Farm2} alt="photo 2" className="composition__photo composition__photo--p2"/>
-                            <img src={Farm3} alt="photo 3" className="composition__photo composition__photo--p3"/>
+                            <img src={Farm1} alt="farm-1" className="composition__photo composition__photo--p1"/>
+                            <img src={Farm2} alt="farm-2" className="composition__photo composition__photo--p2"/>
+                            <img src={Farm3} alt="farm-3" className="composition__photo composition__photo--p3"/>
                         </div>
                         part 1
                     </div>
                     <div className='col-1-of-2'>
-                    <h3 className="heading-tetiary u-margin-bottom-small">JLV Mixed Farm</h3>
+                        <div className='features--header'>
+                        <h3 className="heading-tetiary u-margin-bottom-small">JLV Mixed Farm</h3>
                         <p className="paragraph">
                             ipsum dolor sit, amet consectetur adipisicing elit. Odit excepturi animi, commodi voluptatem sit eveniet alias nobis consequatur sequi fugiat possimus sunt assumenda ut eaque.
                         </p>
@@ -27,6 +28,8 @@ export default function AboutFeature() {
                         <p className="paragraph">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatibus error eum doloremque.
                         </p>
+                        </div>
+
                     </div>
         </div>
                             

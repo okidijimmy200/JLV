@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://okidijimmy200.github.io/JLV",
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@material-ui/core": "^4.12.4",
@@ -20,6 +21,7 @@
     "@types/react-dom": "^18.0.6",
     "@types/react-google-recaptcha": "^2.1.5",
     "@types/react-router-dom": "^5.3.3",
+    "@types/react-router-hash-link": "^2.4.5",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "node-sass": "^7.0.1",
@@ -29,7 +31,9 @@
     "react-google-recaptcha": "^2.1.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.4",
     "reactjs-tailwind": "^0.1.9",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"

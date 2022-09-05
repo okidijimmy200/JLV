@@ -7,7 +7,7 @@ import './Action.scss'
 
 export default function Action() {
   return (
-    <div className='section-action'>
+    <div className='section-action' id='services'>
               <div className="grid-container-action">
               <div className="grid-item-action box-1">
               <div className='grid-item-action__1'>

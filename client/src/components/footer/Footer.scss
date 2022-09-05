@@ -1,17 +1,26 @@
 .section-footer {
     background-color: rgba(34, 89, 1, 1);
     margin-top: 3rem;
-   color: #fff;
-   font-size: 1.2rem;
+    color: #fff;
+    font-size: 1.2rem;
+
+    // @media only screen and (max-width: 1228px) {
+    //     font-size: 1rem;
+        
+    // }
 }
 
 .Footer {
     display: grid;
     grid-template-rows: 22rem 10rem;
     // grid-row-gap: 1rem;
+    @media only screen and (max-width: 900px) {
+        grid-template-rows: 40rem 10rem;
+    }
 
     &__detail {
         text-align: justify;
+        padding: 0 0 0 1rem;
     }
 
     &__bullets--1 {
@@ -23,9 +32,48 @@
     &__part1 {
         border-bottom: 4px #fff solid;
         display: grid;
-        grid-template-columns: 27rem 15rem 11rem 14rem 30rem;;
+        grid-template-columns: 27rem 15rem 11rem 14rem 30rem;
         grid-column-gap: 4rem;
         padding: 4rem;
+
+        @media only screen and (max-width: 1236px) {
+            grid-template-columns: 30rem 15rem 11rem 14rem 30rem;
+            grid-column-gap: 3rem;
+            padding: 3rem;
+            
+        }
+        @media only screen and (max-width: 1200px) {
+            grid-template-columns: 32rem 17rem 12rem 14rem 30rem;
+            grid-column-gap: 3rem;
+            padding: 2rem;
+            
+        }
+        @media only screen and (max-width: 1128px) {
+            grid-template-columns: 30rem 14rem 11rem 15rem 30rem;
+            grid-column-gap: 3rem;
+            padding: 1rem;
+            
+        }
+        @media only screen and (max-width: 1067px) {
+            grid-template-columns: 28rem 14rem 9rem 14rem 29rem;
+            grid-column-gap: 2rem;
+            padding: 1rem;
+            
+        }
+        @media only screen and (max-width: 1000px) {
+            grid-template-columns: 33rem 14rem 11rem 15rem 30rem;
+            grid-column-gap: 3rem;
+            padding: 1rem;
+            
+        }
+        @media only screen and (max-width: 900px) {
+            grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+            grid-template-rows: repeat(auto-fit, minmax(10rem, 1fr));
+            grid-column-gap: 5rem;
+            grid-row-gap: 3rem;
+            padding: 0 0 0 2rem;
+            
+        }
     }
 
     &__part2 {
@@ -33,6 +81,19 @@
         grid-template-columns: 1fr 20rem 1fr;
         grid-column-gap: 23rem;
         padding: 4rem;
+
+        @media only screen and (max-width: 1191px) {
+            grid-column-gap: 20rem;
+        }
+
+        @media only screen and (max-width: 1127px) {
+            grid-column-gap: 17rem;
+        }
+
+        @media only screen and (max-width: 1065px) {
+            grid-column-gap: 14rem;
+            
+        }
 
         &--icons {
             display: flex;

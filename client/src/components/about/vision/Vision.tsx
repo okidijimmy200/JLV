@@ -14,14 +14,16 @@ export default function Vision() {
                 <div className='vision__statement'>
                   <div className='vision__box'>
                     <div className='vision__box-1'>
+                      <div className='vision__content'>
                       <div className='vision__box-1-heading'>
                       <img src={MissionPic} alt='vision__pic' className='vision__pic'/>
                       <h2>Our Mission</h2>
                     </div>
-                    <div>
+                    <div className='vision__text'>
                     To promote sustainable agricultural practices, strengthen markets
                         and protect the environment in rural areas
                     </div>
+                      </div>
 
                     </div>
                   </div>
@@ -29,13 +31,15 @@ export default function Vision() {
                   <div>
                   <div className='vision__box'>
                     <div className='vision__box-1'>
-                      <div className='vision__box-1-heading'>
+                    <div className='vision__content'>
+                    <div className='vision__box-1-heading'>
                       <img src={VisonPic} alt='vision__pic' className='vision__pic'/>
                       <h2>Our Vision</h2>
                     </div>
-                    <div>
+                    <div  className='vision__text'>
                     To promote sustainable agricultural practices, strengthen markets
                         and protect the environment in rural areas
+                    </div>
                     </div>
 
                     </div>
@@ -47,6 +51,7 @@ export default function Vision() {
             <div className='col-1-of-2'>
                 <div className='vision__picture'>
                 </div>
+                <div className='vision__picture--2'></div>
             </div>
 
         </div>

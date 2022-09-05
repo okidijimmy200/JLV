@@ -25,7 +25,7 @@ export default function Header() {
             </p>
         </div>
         <div className='header-about__detail__picture'>
-          <h2></h2>
+          {/* <h2></h2> */}
         </div>
 
       </div>

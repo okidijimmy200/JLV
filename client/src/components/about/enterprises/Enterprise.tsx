@@ -1,10 +1,4 @@
 import React from 'react'
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { makeStyles } from '@mui/styles';
-import { CardActionArea } from '@mui/material';
 
 import './Enterprise.scss'
 
@@ -12,93 +6,49 @@ const Img1 = require('../../../images/about-img-1.png')
 const Img2 = require('../../../images/about-img-2.png')
 const Img3 = require('../../../images/about-img-3.png')
 
-const useStyles = makeStyles({
-  root: {
-    background: '#fff',
-    fontSize:'1.6rem !important'
-  },
-  pic: {
-    borderTopRightRadius: '1rem',
-    borderTopLeftRadius: '1rem'
-  },
-  textarea: {
-    '&:hover': {
-      background: '#fff',
-  },
-  }
-});
-
 export default function Enterprise() {
-  const classes = useStyles();
   return (
     <div className='section-enterprise'>
-      <div>
+      <div className='enterprise--heading'>
         <h2>Our Enterprises</h2>
       </div>
       <div>
         <div className='row'>
           <div className='col-1-of-3'>
-          <Card sx={{ maxWidth: 345, height: 260 }} >
-      <CardActionArea className={classes.textarea}>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Img1}
-          alt="green iguana"
-          className={classes.pic}
-        />
-        <CardContent className={classes.textarea}>
-          <Typography gutterBottom variant="h5" component="h2">
-            JLV Resort 5 Star Cottage Experience
-          </Typography>
-          <Typography variant="body2"  className={classes.root}>
-            Lizards are a widespread group of squamate reptiles, ...
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+            <div className='enterprise'>
+              <div className='enterprise__pic'>
+                <img src={Img1} alt='img-1' className='enterprise__img'/>
+              </div>
+              <div className='enterprise__textarea'>
+                <h3 className='enterprise__title'>JLV Mixed Farm</h3>
+                <h4 className='enterprise__detail'>Uganda</h4>
+              </div>
+
+            </div>
           </div>
           <div className='col-1-of-3'>
-          <Card sx={{ maxWidth: 345, height: 260 }} >
-      <CardActionArea className={classes.textarea}>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Img2}
-          alt="green iguana"
-          className={classes.pic}
-        />
-        <CardContent className={classes.textarea}>
-          <Typography gutterBottom variant="h5" component="h2">
-            JLV Resort 5 Star Cottage Experience
-          </Typography>
-          <Typography variant="body2"  className={classes.root}>
-            Lizards are a widespread group of squamate reptiles, ...
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+          <div className='enterprise'>
+              <div className='enterprise__pic'>
+                <img src={Img2} alt='img-2' className='enterprise__img'/>
+              </div>
+              <div className='enterprise__textarea'>
+                <h3 className='enterprise__title'>JLV Diary</h3>
+                <h4 className='enterprise__detail'>Uganda, Kenya, Tanzania</h4>
+              </div>
+
+            </div>
           </div>
           <div className='col-1-of-3'>
-          <Card sx={{ maxWidth: 345, height: 260 }} >
-      <CardActionArea className={classes.textarea}>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Img3}
-          alt="green iguana"
-          className={classes.pic}
-        />
-        <CardContent className={classes.textarea}>
-          <Typography gutterBottom variant="h5" component="h2">
-            JLV Resort 5 Star Cottage Experience
-          </Typography>
-          <Typography variant="body2"  className={classes.root}>
-            Lizards are a widespread group of squamate reptiles, ...
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+          <div className='enterprise'>
+              <div className='enterprise__pic'>
+                <img src={Img3} alt='img-3' className='enterprise__img'/>
+              </div>
+              <div className='enterprise__textarea'>
+                <h3 className='enterprise__title'>JLV Resort</h3>
+                <h4 className='enterprise__detail'>Uganda</h4>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>

@@ -11,6 +11,10 @@
     background-size: cover;  /* background cover takes over the width of view port */   
     background-position: top; 
 
+    @media only screen and (max-width: 1065px) {
+        height: 260vh; 
+    }
+
     // nesting the elements
     /* styling the logo */
     &__section--contact {
@@ -39,6 +43,7 @@
 .contact {
     padding: 3rem;
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     &__map {
         position: relative;
@@ -99,6 +104,10 @@
         padding: 0 15rem;
         display: flex;
         justify-content: space-between;
+    }
+
+    @media only screen and (max-width: 1065px) {
+
     }
 }
 

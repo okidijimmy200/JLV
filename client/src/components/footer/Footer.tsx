@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
         <div className='Footer__part2'>
           <div className='Footer__copyright'>
-            @2022 JLV Enterprises.All rights reserved
+            @ 2022 JLV Enterprises.All rights reserved
           </div>
           <div className='Footer__part2--icons'>
                   <div ><AiFillFacebook color="#fff" fontSize="2rem"/></div>

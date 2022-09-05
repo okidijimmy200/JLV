@@ -84,6 +84,12 @@
 .heading-tetiary {
     font-size: 1.6rem;
     font-weight: 700;
+
+    @media only screen and (max-width: 1245px) {
+        font-size: 1.4rem;
+        font-weight: 700;
+        
+    }
 }
 
 .paragraph {
@@ -118,6 +124,30 @@
             
     }
         &__link {
+            text-decoration: none;
+            color: #fff; 
+            cursor: pointer;
+            &:hover {
+                color: #70FF00;
+            }
+            &::after {
+                content: "";
+                display: block;
+                margin: auto;
+                height: 3px;
+                width: 0;
+                top: 5px;
+                background: transparent;
+                transition: all 0.3s;
+                
+              }
+              &:hover::after {
+                width: 100%;
+                background: #70FF00;
+                color: #70FF00;
+              }
+        }
+        &__hash {
             text-decoration: none;
             color: #fff; 
             cursor: pointer;

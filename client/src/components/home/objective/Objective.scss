@@ -1,12 +1,126 @@
 .section-objective {
     background-color:rgba(146, 205, 40, 0.21)  ;
-    padding: 3rem 0 30rem 0;
+    padding: 3rem 0 38rem 0;
+
+    @media only screen and (max-width: 1065px) {
+        padding: 3rem 0 35rem 0;
+        
+    }
+    @media only screen and (max-width: 1000px) {
+        padding: 3rem 0 38rem 0;
+        
+    }
+    @media only screen and (max-width: 950px) {
+        margin-top: 25rem;
+        padding: 3rem 10rem 127rem 10rem;
+    }
+}
+.objective__spacing {
+    padding: 0 0 0 2rem;
 }
 
-.css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root {
-    padding: 1.5rem !important;
-}
-.css-46bh2p-MuiCardContent-root {
-    padding: 2px !important;
-    height: 8rem;
+.objective__root {
+    height: 360px;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    padding: 1.5rem;
+
+    @media only screen and (max-width: 1245px) {
+        height: 320px;
+        width: 320px;
+        
+    }
+
+    @media only screen and (max-width: 1065px) {
+        height: 290px;
+        width: 290px;
+        
+    }
+    @media only screen and (max-width: 950px) {
+        height: 410px;
+        width: 490px;
+        margin: 0 auto;
+    }
+
+    &__content {
+        padding: 13px;
+        border: 3px solid red;
+    }
+
+    &__img {
+        height: 210px;
+        width: 330px;
+        
+
+        @media only screen and (max-width: 1245px) {
+            height: 180px;
+            width: 300px;
+            
+        }
+        @media only screen and (max-width: 1065px) {
+            height: 150px;
+            width: 270px;
+            
+        }
+        @media only screen and (max-width: 950px) {
+            height: 35rem;
+            width: 60rem;
+        }
+    }
+    &__pic {
+        width: 330px;
+        height: 200px;
+
+        @media only screen and (max-width: 1245px) {
+            height: 180px;
+            width: 300px;
+            
+        }
+        @media only screen and (max-width: 1065px) {
+            height: 150px;
+            width: 270px;
+            
+        }
+        @media only screen and (max-width: 950px) {
+            height: 30rem;
+            width: 58rem;
+        }
+    }
+
+    &__textarea {
+        margin-top: 5px;
+
+        @media only screen and (max-width: 950px) {
+            text-align: center;
+        }
+    }
+
+    &__title {
+
+    }
+    &__heading {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #348403;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    &__date {
+        margin-left: 5px;
+        margin-bottom: 4px;
+        color: green;
+    }
+
+    &__paragrapgh {
+        font-size:1.6rem;
+
+        @media only screen and (max-width: 1245px) {
+            font-size: 1.2rem;
+            
+        }
+    }
 }

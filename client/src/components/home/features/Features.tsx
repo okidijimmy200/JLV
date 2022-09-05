@@ -1,5 +1,6 @@
 import React from 'react'
 import './Features.scss'
+import { Link } from 'react-router-dom'
 
 const Cow = require('../../../images/icon-1.png')
 const Diary = require('../../../images/icon-2.jpg')
@@ -51,9 +52,9 @@ export default function Features() {
 </div>
   <ul className="container">
 
-    <li className="link"><a href=""></a></li>
-    <li className="link active"><a href=""></a></li>
-    <li className="link"><a href=""></a></li>
+    <li className="link"><Link to=''></Link></li>
+    <li className="link active"><Link to=''></Link></li>
+    <li className="link"><Link to=''></Link></li>
   </ul>
 
  

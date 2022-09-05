@@ -22,11 +22,24 @@ body {
     /* padding to create white space around web page */
     padding: 3rem;
     box-sizing:border-box;
+
+    @media only screen and (max-width: 1000px) {
+        padding: 0;
+    }
 }
 
 /* rooy font size */
 html {
     font-size: 62.5%;
+
+    @media only screen and (max-width: 1200px) {
+        font-size: 56.5%;
+        
+    }
+    @media only screen and (max-width: 1000px) {
+        font-size: 50%;
+        
+    }
 }
 
 // we start with a row
@@ -43,6 +56,21 @@ html {
         // creating space btn margins
         margin-bottom: 8rem;
     }
+    @media only screen and (max-width: 1195px) {
+        &:not(:last-child) {
+            // creating space btn margins
+            margin-bottom: 6rem;
+        }
+        
+    }
+    @media only screen and (max-width: 1141px) {
+        &:not(:last-child) {
+            // creating space btn margins
+            margin-bottom: 4rem;
+        }
+        
+    }
+
     clearfix {
         &::after {
             content: "";
@@ -59,11 +87,27 @@ html {
         &:not(:last-child) {
             margin-right:4rem;
         }
+        @media only screen and (max-width: 1195px) {
+            &:not(:last-child) {
+                // creating space btn margins
+                margin-right:3rem;
+                
+            }
+            
+        }
+       
+        @media only screen and (max-width: 950px) {
+            width: 100% !important;
+            margin-bottom: 2rem;
+            margin-right: 0;
+        }
+    }
+    @media only screen and (max-width: 950px) {
+        width: 100% !important;
     }
     .col-1-of-2 {
         width: calc((100% - #{4rem}) / 2);
       
-        // here the height has been broken, so we use clear fix to solve the problem
         
     }
     .col-1-of-3 {
@@ -94,6 +138,10 @@ html {
 
 .u-margin-bottom-small {
     margin-bottom: 1.3rem;
+    @media only screen and (max-width: 1245px) {
+        margin-bottom: 1rem;
+        
+    }
 }
 .u-margin-bottom-medium {
     margin-bottom: 4rem;
