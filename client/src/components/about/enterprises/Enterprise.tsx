@@ -44,7 +44,7 @@ export default function Enterprise() {
                 <img src={Img3} alt='img-3' className='enterprise__img'/>
               </div>
               <div className='enterprise__textarea'>
-                <h3 className='enterprise__title'>JLV Resort</h3>
+                <h3 className='enterprise__title'>Kashari Farm Resort</h3>
                 <h4 className='enterprise__detail'>Uganda</h4>
               </div>
 

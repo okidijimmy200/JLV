@@ -6,7 +6,13 @@ const Cow = require('../../../images/icon-1.png')
 const Diary = require('../../../images/icon-2.jpg')
 const Resort = require('../../../images/icon-3.png')
 
-export default function Features() {
+interface ChildProps  {
+    onclick?: () => void;
+    diaryHandler?: () => void;
+    resortHandler?: () => void;
+}
+
+export default function Features({onclick, diaryHandler, resortHandler}: ChildProps) {
   return (
     <>
 
@@ -14,7 +20,7 @@ export default function Features() {
                 <div className="row">
                     <div className='feature-box__position'>
                     <div className="col-1-of-3 ">
-                        <div className="feature-box">
+                        <div className="feature-box" onClick={onclick}>
                             <img src={Cow} alt='cow' className='feature-box__icon'/>
                             <h3 className="heading-tetiary">JLV Mixed Farm</h3>
                             <p className="feature-box__text u-margin-bottom-small">
@@ -23,7 +29,7 @@ export default function Features() {
                         </div>
                     </div>
                     <div className="col-1-of-3 ">
-                        <div className="feature-box">
+                        <div className="feature-box" onClick={diaryHandler}>
                             <img src={Diary} alt='cow' className='feature-box__icon icon-basic-world' />
                             <h3 className="heading-tetiary">JLV Diary</h3>
                             <p className="feature-box__text u-margin-bottom-small">
@@ -32,9 +38,9 @@ export default function Features() {
                         </div>
                     </div>
                     <div className="col-1-of-3 ">
-                        <div className="feature-box">
+                        <div className="feature-box" onClick={resortHandler}>
                         <img src={Resort} alt='cow' className='feature-box__icon'/>
-                            <h3 className="heading-tetiary">JLV Resort</h3>
+                            <h3 className="heading-tetiary">Kashari Farm Resort</h3>
                             <p className="feature-box__text u-margin-bottom-small">
                                 5 Star Experience
                             </p>

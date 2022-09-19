@@ -11,17 +11,15 @@ export default function Header() {
         <div className='header-about__detail__paragraph'>
           <div><h2>Who are we?</h2></div>
         <p className="paragraph">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima corrupti dolorum eaque 
-                ipsum quibusdam tenetur, nobis labore sequi maxime, reiciendis voluptate at sint 
-                totam harum.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima corrupti dolorum eaque 
-                ipsum quibusdam tenetur, nobis labore sequi maxime, reiciendis voluptate at sint 
-                totam harum 
+        Nestled in the gently sloping hills of Rubaya, Kashari, Mbarara district, lies JLV Mixed farm: A
+        model Farm like no other! Featuring a wide array of livestock, food crops, cash crops and all
+        things natural, we are a haven for all avid farmers. Be it someone who is willing to learn about
+        farming from scratch, or someone trying to improve on the knowledge they already have. 
             </p>
             <p className="paragraph">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima corrupti dolorum eaque 
-                ipsum quibusdam tenetur, nobis labore sequi maxime, reiciendis voluptate at sint 
-                totam harum 
+            With comprehensive records dating back to our inception in 2008, you will be able to track our
+        progress in terms of improvement of animal breeds, use of scientific methods, all the way to our
+        current projects of value addition.
             </p>
         </div>
         <div className='header-about__detail__picture'>
