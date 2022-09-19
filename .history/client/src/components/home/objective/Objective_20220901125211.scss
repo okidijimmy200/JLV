@@ -1,0 +1,51 @@
+.section-objective {
+    background-color:rgba(146, 205, 40, 0.21)  ;
+    padding: 3rem 0 38rem 0;
+}
+
+.objective__root {
+    height: 360px;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+
+    &__content {
+        padding: 13px;
+    }
+
+    &__img {
+        height: 210px;
+        width: 330px;
+    }
+    &__img_pic {
+        max-width: 330px;
+        height: 200px;
+    }
+
+    &__textarea {
+        margin-top: 5px;
+    }
+
+    &__title {
+
+    }
+    &__heading {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #348403;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    &__date {
+        margin-left: 5px;
+        margin-bottom: 4px;
+        color: green;
+    }
+
+    &__paragrapgh {
+        font-size:'1.6rem !important'
+    }
+}

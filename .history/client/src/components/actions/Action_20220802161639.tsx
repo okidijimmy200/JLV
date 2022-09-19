@@ -1,0 +1,20 @@
+import React from 'react'
+
+import './Action.scss'
+
+export default function Action() {
+  return (
+    <div className='section-action'>
+              <div className="grid-container-action">
+        <div className="grid-item">1</div>
+        <div className="grid-item">2</div>
+        <div className="grid-item">3</div>
+        <div className="grid-item">4</div>
+        <div className="grid-item">5</div>
+        <div className="grid-item grid-item__6">6</div>
+        <div className="grid-item grid-item__7">7</div>
+        <div className="grid-item grid-item__8">8</div>
+</div>
+    </div>
+  )
+}

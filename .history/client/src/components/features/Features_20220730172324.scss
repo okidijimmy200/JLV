@@ -1,0 +1,37 @@
+.section-about {
+    position: relative;
+    background-color: #f7f7f7;
+    padding:25rem 0;
+    // to move the section above to cover the triangular space
+    margin-top: -15vh;
+    z-index: -;
+}
+
+.feature-box {
+    
+    background-color: rgba(#f7f7f7, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba(#000, .15);
+    // to perform transition
+    transition: all .3s; 
+
+    // styling the icon
+    &__icon {
+        font-size: 3rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, #55c57a,#28b485);
+        color:transparent;
+    }
+    // perfroming the hover effect
+    &:hover {
+        transform: scale(1.05) translateY(-.5rem);
+    }
+    // styling the text
+    &__text {
+
+    }
+}

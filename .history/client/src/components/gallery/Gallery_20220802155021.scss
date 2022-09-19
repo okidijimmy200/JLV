@@ -1,0 +1,60 @@
+.section-gallery {
+    padding: 5rem 0 ;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+
+    &__1 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+    &__1 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+    &__1 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+    &__1 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+    &__2 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+    &__3 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+    &__4 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+    &__5 {
+    &__5 {
+        background-image: url(../../images/farm.jpg);
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top;
+    }
+}

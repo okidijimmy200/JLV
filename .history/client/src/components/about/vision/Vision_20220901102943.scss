@@ -1,0 +1,48 @@
+.section-vision {
+    padding: 2rem 0 37rem 0;
+    background-color: #E7EBFF;
+}
+
+.vision {
+    margin-bottom: 2rem;
+    padding: 0 0 30rem 0;
+    font-family: Roboto;
+    &__content {
+        width: 75%;
+        margin: 0 auto;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 17.58px;
+        letter-spacing: 1%;
+        align: c
+    }
+    &__picture {
+        background-image: url(../../../images/about-vision.png);
+        height: 30rem;
+        width: auto;
+        background-size: cover;  /* background cover takes over the width of view port */   
+        background-position: top; 
+
+    }
+
+    &__statement {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__pic {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+    }
+    &__box-1 {
+        height: 16rem;
+
+        &-heading {
+            width: 10rem;
+            margin: 0 auto;
+        }
+    }
+}

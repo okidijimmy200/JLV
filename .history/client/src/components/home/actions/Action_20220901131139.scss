@@ -1,0 +1,53 @@
+.section-action {
+    background-color: #348403;
+    padding: 5rem 4rem;
+}
+
+.grid-container-action{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-rows: repeat(2, 20rem);
+    gap: 30px;
+}
+
+.grid-item-action {
+    background-color: #348403;
+    border: 3px solid #fff;
+    padding: 3rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+
+    @media only screen and (max-width: 1245px) {
+        height: 180px;
+        width: 300px;
+        
+    }
+
+    &__box {
+        text-align: justify;
+    }
+
+    &__icon {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        background-color: #348403;
+        margin-top: -6rem;
+    }
+
+    &__heading {
+        text-transform: initial !important;
+        text-align: left;
+    }
+    &__1 {
+        border: none;
+        width: 13rem;
+        margin-top: -4rem;
+    }
+
+}
+
+.box-1 {
+    border: none;
+}

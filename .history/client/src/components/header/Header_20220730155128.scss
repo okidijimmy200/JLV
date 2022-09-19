@@ -1,0 +1,66 @@
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    /* to remove the shake upwards in animation */
+    backface-visibility: hidden;
+    /* to increase bottom margin to button */
+    margin-bottom: 6rem;
+    // performing nesting
+    
+    &--main {
+        /* display them as block elements to separate the two span elements */
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 1.5rem;
+        /* specify the name of animation in the text to be moved */
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;    
+        /* animation-delay: 3s; */
+        /* animation-iteration-count: 3; */
+    
+    }
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 2.1rem;
+        animation: moveInRight 1s ease-out;
+    }
+}
+
+// h2 for the about section
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    // making the h2 text green
+    display: inline-block;    
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    // we set the color to transparent
+    color:transparent;
+    letter-spacing: .2rem;
+    transition:all .2s;
+
+    // performing hover effect
+    &:hover {
+        // we perform transform to perform multiple things. we can skew in the x-direction and y-direction
+        transform: skewY(2deg) skewX(2deg) scale(1.1);
+        // text decoration beneath in the x and y direction
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+;    }
+}
+.heading-tetiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size:1.6rem;
+    // to remove space in the last part of the paragraph
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
