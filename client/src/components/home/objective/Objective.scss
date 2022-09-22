@@ -1,7 +1,7 @@
 .section-objective {
     transition: 1s;
     background-color:rgba(146, 205, 40, 0.21)  ;
-    padding: 3rem 0 40rem 0;
+    padding: 3rem 0 42rem 0;
 
     @media only screen and (max-width: 1065px) {
         padding: 3rem 0 35rem 0;
@@ -21,7 +21,7 @@
 }
 
 .objective__root {
-    height: 360px;
+    min-height: 360px;
     width: 360px;
     background: rgba(255, 255, 255, 0.75);
     border-radius: 5px;
@@ -98,9 +98,9 @@
         }
     }
 
-    &__title {
+    // &__title {
 
-    }
+    // }
     &__heading {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -155,7 +155,8 @@ body.active-modal {
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #f1f1f1;
+    background: rgba(255, 255, 255, 0.75);
+    color: #71797E;
     padding: 14px 28px;
     border-radius: 3px;
     max-width: 600px;

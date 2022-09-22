@@ -13,7 +13,7 @@
     font-size: 1.2rem;
     padding: .1rem;
     text-align: center;
-    border-radius: .3rem;
+    border-radius: 1rem;
     box-shadow: 0 1.5rem 4rem rgba(#000, .15);
     cursor: pointer;
     // to perform transition
@@ -29,6 +29,7 @@
         height: 10rem;
         width: 10rem;
         margin-bottom: .5rem;
+        margin-top: 2rem;
     }
     // perfroming the hover effect
     &:hover {
@@ -54,7 +55,6 @@
   }
   
   .container {
-    border-top: 2px solid #000;
     display: flex;
     list-style: none;
     padding: 0;
@@ -62,17 +62,20 @@
     align-items: stretch;
     align-content: stretch;
   }
-  
+  .link__2{
+    margin-right: -2rem;
+  }
   .link {
     position: relative;
     margin-top: 10px;
     width: 100%;
+
   }
   
   .link a {
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: #348403;
     font-size: 15px;
   }
   
@@ -94,12 +97,12 @@
     top: -18px;
     left: 50%;
     transform: translatex(-50%);
-    border: 2px solid black;
+    border: 2px solid #348403;
   }
   
   .active::after,
   .link:hover::after {
-    background: black
+    background: #348403
   }
   
   p.lead {
@@ -115,8 +118,9 @@
 
     &__box {
         background-color: #fff;
-        width: 13rem;
+        width: 15rem;
         height: auto;
+        font-size: 1.2rem;
     }
     &__paragraph1 {
         margin-left: -7rem;

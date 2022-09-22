@@ -7,8 +7,9 @@ import TextField from '@material-ui/core/TextField'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
 import emailjs from '@emailjs/browser';
-
 import './Form.scss'
+
+const Logo = require('../../../images/Logo.png')
 
 const useStyles = makeStyles(theme => ({
     card: {
@@ -17,13 +18,14 @@ const useStyles = makeStyles(theme => ({
       textAlign: 'center',
       marginTop: 40,
       paddingBottom: 16,
-      backgroundColor: '#F4FFED'
+      backgroundColor: '#E5ECE1'
     },
     error: {
       verticalAlign: 'middle'
     },
     title: {
-      marginTop: 16
+      marginTop: 16,
+      color: 'green'
     },
     textField: {
       marginLeft: 8,
@@ -75,6 +77,7 @@ export default function Form() {
           <Card className={classes.card}>
         <CardContent>
           <Typography variant="h4" className={classes.title}>
+          <span className='header__logo__icon'><img src={Logo} alt='logo' className='header__logo__icon--size'/></span>
             JLV Mixed Farm
           </Typography>
           <form ref={form} onSubmit={sendEmail}>

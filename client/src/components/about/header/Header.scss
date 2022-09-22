@@ -44,6 +44,9 @@
             flex: 0 0 55%;
             margin-right: 2rem;
             color: #fff;
+            @media only screen and (min-width: 1459px) {
+                flex: 0 0 60%;
+            }
         }
 
         &__picture {

@@ -234,7 +234,7 @@ experience.
             
             </p>
             <button className="close-modal" onClick={toggleModalS}>
-              CLOSE
+            &#10008;
             </button>
           </div>
         </div>

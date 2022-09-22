@@ -61,7 +61,7 @@ export default function Action() {
             and a guest washroom
             </p>
             <button className="close-modal" onClick={toggleResort}>
-              CLOSE
+            &#10008;
             </button>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function Action() {
             butterflies and more from 6:00 am until 06:00 pm.
             </p>
             <button className="close-modal" onClick={toggleModal}>
-              CLOSE
+            &#10008;
             </button>
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function Action() {
             less in beef cattle because of handling and labor costs. Learn more with us at JLV Mixed Farm.
             </p>
             <button className="close-modal" onClick={toggleCattle}>
-              CLOSE
+            &#10008;
             </button>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function Action() {
             reach available resources at your farm.
             </p>
             <button className="close-modal" onClick={toggleHay}>
-              CLOSE
+            &#10008;
             </button>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function Action() {
             for maximum profits.
             </p>
             <button className="close-modal" onClick={toggleIntern}>
-              CLOSE
+            &#10008;
             </button>
           </div>
         </div>

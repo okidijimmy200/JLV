@@ -58,9 +58,9 @@ export default function Features({onclick, diaryHandler, resortHandler}: ChildPr
 </div>
   <ul className="container">
 
-    <li className="link"><Link to=''></Link></li>
-    <li className="link active"><Link to=''></Link></li>
-    <li className="link"><Link to=''></Link></li>
+    <Link className="link link__1" to=''></Link>
+    <Link className="link active link__2" to=''></Link>
+    <Link className="link link__3" to=''></Link>
   </ul>
 
  

@@ -14,14 +14,18 @@
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: 'Roboto';
     font-weight: 400;
-    /* font-size: 16px;    */
+    font-size: 16px;
     line-height: 1.7;  /* line hieght of 1.7 is 1.7 of default line height */
     color:#777;
     /* padding to create white space around web page */
     padding: 3rem;
     box-sizing:border-box;
+
+    @media only screen and (min-width: 1500px) {
+        padding: 4rem;
+    }
 
     @media only screen and (max-width: 1000px) {
         padding: 0;
@@ -31,6 +35,11 @@ body {
 /* rooy font size */
 html {
     font-size: 62.5%;
+
+    @media only screen and (min-width: 1400px) {
+        font-size: 75%;
+        
+    }
 
     @media only screen and (max-width: 1200px) {
         font-size: 56.5%;
@@ -47,15 +56,11 @@ html {
 .row {
     // standard dimension
     max-width:114rem;
-    // background-color:$color-grey-light-1;
-    // center the row in the viewport
-    // this is a way of centering block elements inside another block element
     margin: 0 auto;    
-    // removing margin from last column
     &:not(:last-child) {
-        // creating space btn margins
         margin-bottom: 8rem;
     }
+
     @media only screen and (max-width: 1195px) {
         &:not(:last-child) {
             // creating space btn margins
@@ -70,6 +75,7 @@ html {
         }
         
     }
+
 
     clearfix {
         &::after {
@@ -87,6 +93,7 @@ html {
         &:not(:last-child) {
             margin-right:4rem;
         }
+
         @media only screen and (max-width: 1195px) {
             &:not(:last-child) {
                 // creating space btn margins
