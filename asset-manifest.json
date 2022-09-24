@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JLV/static/css/main.fb463784.css",
-    "main.js": "/JLV/static/js/main.316a53b9.js",
+    "main.css": "/JLV/static/css/main.2ea7ae7c.css",
+    "main.js": "/JLV/static/js/main.af157b12.js",
     "static/media/Bg.jpg": "/JLV/static/media/Bg.b659b26588d491fdaca0.jpg",
     "static/media/Farm2.jpg": "/JLV/static/media/Farm2.64f16a4cdbba82ae2c83.jpg",
     "static/media/about-vision.png": "/JLV/static/media/about-vision.f791e539b2580c686fda.png",
@@ -28,11 +28,11 @@
     "static/media/icon-1.png": "/JLV/static/media/icon-1.0ad6a7c079dd60790150.png",
     "static/media/Logo.png": "/JLV/static/media/Logo.2d195d10f5b3033dca42.png",
     "index.html": "/JLV/index.html",
-    "main.fb463784.css.map": "/JLV/static/css/main.fb463784.css.map",
-    "main.316a53b9.js.map": "/JLV/static/js/main.316a53b9.js.map"
+    "main.2ea7ae7c.css.map": "/JLV/static/css/main.2ea7ae7c.css.map",
+    "main.af157b12.js.map": "/JLV/static/js/main.af157b12.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb463784.css",
-    "static/js/main.316a53b9.js"
+    "static/css/main.2ea7ae7c.css",
+    "static/js/main.af157b12.js"
   ]
 }
