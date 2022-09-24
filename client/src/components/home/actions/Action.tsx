@@ -48,7 +48,7 @@ export default function Action() {
                     <h2>5 Star Resort</h2>
                   </div>
                   <div className='grid-item-action__box'>
-                    <h4>The magnificent cottages at Kashari Farm Resort
+                    <div className='grid-item-action__para'>The magnificent cottages at Kashari Farm Resort
                     <span onClick={toggleResort} className="btn-modal">...</span>
       {resort && (
         <div className="modal">
@@ -65,7 +65,7 @@ export default function Action() {
             </button>
           </div>
         </div>
-      )}</h4>
+      )}</div>
                   </div>
 
               </div>
@@ -76,7 +76,7 @@ export default function Action() {
                     <h2>Nature Walks</h2>
                   </div>
                   <div className='grid-item-action__box'>
-                    <h4>A 2 hours walk from the hotel, enjoy
+                    <div className='grid-item-action__para'>A 2 hours walk from the hotel, enjoy
                     <span onClick={toggleModal} className="btn-modal">...</span>
       {modal && (
         <div className="modal">
@@ -95,7 +95,7 @@ export default function Action() {
           </div>
         </div>
       )}
-                    </h4>
+                    </div>
                   </div>
               </div>
               <div className="grid-item-action">
@@ -106,7 +106,7 @@ export default function Action() {
                     </h2>
                   </div>
                   <div className='grid-item-action__box'>
-                    <h4>In African, cattle breeding has to contend seriously.
+                    <div className='grid-item-action__para'>In African, cattle breeding has to contend seriously.
                     <span onClick={toggleCattle} className="btn-modal">...</span>
       {cattle && (
         <div className="modal">
@@ -127,7 +127,7 @@ export default function Action() {
           </div>
         </div>
       )}
-                  </h4>
+                  </div>
                   </div>
               </div>
               <div className="grid-item-action">
@@ -137,7 +137,7 @@ export default function Action() {
                     <h2>Hay & Silage Preparation</h2>
                   </div>
                   <div className='grid-item-action__box'>
-                  <h4>How to improve the nutrition of your animals during the dry
+                  <div className='grid-item-action__para'>How to improve the nutrition of your animals during the dry
                   <span onClick={toggleHay} className="btn-modal">...</span>
       {hay && (
         <div className="modal">
@@ -162,7 +162,7 @@ export default function Action() {
           </div>
         </div>
       )}
-                  </h4>
+                  </div>
                   </div>
               </div>
               <div className="grid-item-action">
@@ -172,7 +172,7 @@ export default function Action() {
                     <h2>Internship & Training</h2>
                   </div>
                   <div className='grid-item-action__box'>
-                    <h4>Are you a farmer or agriculturalist!? JLV Mixed farm offers
+                    <div className='grid-item-action__para'>Are you a farmer or agriculturalist!? JLV Mixed farm offers
                     <span onClick={toggleIntern} className="btn-modal">...</span>
       {intern && (
         <div className="modal">
@@ -190,7 +190,7 @@ export default function Action() {
           </div>
         </div>
       )}
-                  </h4>
+                  </div>
                   </div>
               </div>
 </div>

@@ -52,9 +52,9 @@ export default function Features({onclick, diaryHandler, resortHandler}: ChildPr
   <h1 className='heading-secondary heading-title'>Why Choose Us?</h1>
 
 <div className='text'>
-    <div className='text__box'><h2 className='text__paragraph1'>Modern Farming Experience</h2></div>
-    <div className='text__box'><h2>Highland Nature Experience</h2></div>
-    <div className='text__box'><h2 className='text__paragraph2'>Causey Luxury Experience</h2></div>
+    <div className='text__box'><div className='text__paragraph1'>Modern Farming Experience</div></div>
+    <div className='text__box'><div>Highland Nature Experience</div></div>
+    <div className='text__box'><div className='text__paragraph2'>Causey Luxury Experience</div></div>
 </div>
   <ul className="container">
 

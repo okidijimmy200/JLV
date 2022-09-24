@@ -217,7 +217,7 @@ experience.
                 <MdAccessTimeFilled style={{color: 'green', height: '10px', width: '10px'}} /><span className='objective__root__date'>6 July 2022</span>
               </div>
               <div className='objective__root__paragrapgh'>
-                <p>Known as one of the largest modern farming gazetted fplaces in the Uganda, the JLV Mixed 
+                <p>Known as one of the largest modern farming gazetted fplaces in the Uganda, the JLV Mixed Farm
                 <span onClick={toggleModalS} className="btn-modal">...</span>
       {modalS && (
         <div className="modal">

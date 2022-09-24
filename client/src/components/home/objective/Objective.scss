@@ -28,6 +28,15 @@
     padding: 1.5rem;
     transition: 1s;
 
+    @media only screen and (min-width: 1600px) {
+        width: 450px;
+        
+    }
+    @media only screen and (min-width: 1450px) {
+        width: 400px;
+        
+    }
+
     @media only screen and (max-width: 1245px) {
         height: 320px;
         width: 320px;
@@ -54,6 +63,17 @@
         height: 210px;
         width: 330px;
         
+        @media only screen and (min-width: 1600px) {
+            height: 230px;
+            width: 360px;
+            
+        }
+
+        @media only screen and (min-width: 1450px) {
+            width: 360px;
+            height: 230px;
+            
+        }
 
         @media only screen and (max-width: 1245px) {
             height: 180px;
@@ -73,6 +93,17 @@
     &__pic {
         width: 330px;
         height: 200px;
+        @media only screen and (min-width: 1600px) {
+            height: 230px;
+            width: 414px;
+            
+        }
+
+        @media only screen and (min-width: 1450px) {
+            width: 360px;
+            height: 230px;
+            
+        }
 
         @media only screen and (max-width: 1245px) {
             height: 180px;

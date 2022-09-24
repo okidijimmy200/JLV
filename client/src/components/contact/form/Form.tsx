@@ -13,12 +13,18 @@ const Logo = require('../../../images/Logo.png')
 
 const useStyles = makeStyles(theme => ({
     card: {
-      maxWidth: 600,
+      maxwidth: 600,
       margin: 'auto',
       textAlign: 'center',
       marginTop: 40,
       paddingBottom: 16,
-      backgroundColor: '#E5ECE1'
+      backgroundColor: '#E5ECE1',
+      [theme.breakpoints.up(1600)]: {
+        width: 600                 // secondary
+      },
+      [theme.breakpoints.up(1300)]: {
+        width: 500                  // secondary
+      }
     },
     error: {
       verticalAlign: 'middle'

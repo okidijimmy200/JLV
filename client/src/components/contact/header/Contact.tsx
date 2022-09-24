@@ -6,9 +6,6 @@ import './Contact.scss'
 import {GoLocation} from 'react-icons/go'
 import ClipLoader from "react-spinners/ClipLoader";
 import {
-  useWindowSize
-} from '@react-hook/window-size'
-import {
   AiOutlineMail, 
   AiOutlineWhatsApp, 
   AiFillFacebook, 
@@ -57,9 +54,6 @@ function useWindowDimensions() {
 
 export default function Contact() {
   const [loading, setLoading] = useState(true)
-  // const [width] = useWindowSize()
-  const [midTab, setMidTab] = useState('576px')
-  const [midHeight, setMidHeight] = useState('340px')
   const {width, height} = useWindowDimensions()
 
 
@@ -76,7 +70,7 @@ export default function Contact() {
               <div className='contact__map--pic'>
                 {loading ? (<div style={{width:"576px", height:"347px", backgroundColor: '#f7f7f7'}}><ClipLoader loading={loading} cssOverride={override} /></div>) : null}
                 {/* eslint-disable-next-lin */}
-              <iframe onLoad={hideSpinner} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.757658848743!2d32.58331401395134!3d0.315949864114518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb8080541c6d%3A0x7ccde31c7b48888!2sOffice%20of%20the%20Auditor%20General%2C%20Uganda%20(Supreme%20Audit%20Institution)!5e0!3m2!1sen!2sug!4v1659954549659!5m2!1sen!2sug"  style={width > 1366 ? {height: '600px', width: '700px', border: 0} : {height: '355px', width: '576px', border: 0} } title="myFrame"></iframe>
+              <iframe onLoad={hideSpinner} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.757658848743!2d32.58331401395134!3d0.315949864114518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb8080541c6d%3A0x7ccde31c7b48888!2sOffice%20of%20the%20Auditor%20General%2C%20Uganda%20(Supreme%20Audit%20Institution)!5e0!3m2!1sen!2sug!4v1659954549659!5m2!1sen!2sug"  style={width > 1500 ? {height: '595px', width: '700px', border: 0} : width > 1366 ? {height: '600px', width: '660px', border: 0} : {height: '355px', width: '576px', border: 0} } title="myFrame"></iframe>
               </div>
               <div className='contact__map--detail'>
                 <div className='heading-tetiary heading--title'>
@@ -104,7 +98,7 @@ export default function Contact() {
       <Forms />
       <div className='contact__footer'>
         <div className='contact__footer__box'>
-          <div className='contact__footer__box--text'>For Our Service Booking</div>
+          <div className='contact__footer__box--text'>For Booking</div>
         </div>
         <div className='contact__footer__btn'>
         <div className='contact__footer__box--text'>Click Here</div>

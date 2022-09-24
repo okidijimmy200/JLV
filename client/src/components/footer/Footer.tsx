@@ -16,8 +16,8 @@ export default function Footer() {
       <div className='Footer'>
         <div className='Footer__part1'>
           <div className='Footer__about'>
-            <div className=''>
-              <h2>JLV Mixed Farm</h2>
+            <div className='Footer__header'>
+            JLV Mixed Farm
             </div>
             <div className='Footer__detail'>
               <p>Nestled in the gently sloping hills of Rubaya, Kashari, Mbarara district, lies JLV Mixed farm: A
@@ -26,8 +26,8 @@ things natural, we are a haven for all avid farmers.</p>
             </div>
           </div>
           <div className='Footer__bullets'>
-            <div className=''>
-              <h2>JLV Mixed Farm</h2>
+            <div className='Footer__header'>
+            JLV Mixed Farm
             </div>
             <div className='Footer__bullets--1'>
               <ul>
@@ -40,8 +40,8 @@ things natural, we are a haven for all avid farmers.</p>
             </div>
           </div>
           <div className='Footer__bullets'>
-            <div className=''>
-              <h2>JLV Diary</h2>
+            <div className='Footer__header'>
+            JLV Diary
             </div>
             <div className='Footer__bullets--1'>
               <ul>
@@ -54,8 +54,8 @@ things natural, we are a haven for all avid farmers.</p>
             </div>
           </div>
           <div className='Footer__bullets'>
-            <div className=''>
-              <h2>Kashari Farm Resort</h2>
+            <div className='Footer__header'>
+            Kashari Farm Resort
             </div>
             <div className='Footer__bullets--1'>
               <ul>
@@ -67,8 +67,8 @@ things natural, we are a haven for all avid farmers.</p>
             </div>
           </div>
           <div className='Footer__bullets'>
-            <div className=''>
-              <h2>Contact Us</h2>
+            <div className='Footer__header'>
+            Contact Us
             </div>
             <div className='Footer__bullets--1'>
               <ul className='locationBullets'>
@@ -91,7 +91,7 @@ things natural, we are a haven for all avid farmers.</p>
                   <div><AiFillYoutube color="#fff" fontSize="2rem"/></div>    
                   
             </div>
-          <div className='Footer__terms'>Terms and conditions apply</div>
+          <div className='Footer__terms' >Terms and conditions apply</div>
         </div>
       </div>
     </div>
