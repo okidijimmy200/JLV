@@ -68,9 +68,9 @@ export default function Form() {
         return;
     }
       emailjs.sendForm(
-        'service_aanza5p', 
-        'template_mfiwm5s', 
-        form.current, 'KK7gLCvHXjaZTXujO')
+        'service_qcw5fym', 
+        'template_zt9etvj', 
+        form.current, 'WClV94PwpJ-GrFraq')
         .then((result) => {
             console.log(result.text);
             setValues({ ...values, name: '', email: '', message: ''})

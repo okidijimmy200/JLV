@@ -22,7 +22,7 @@ export default function Footer() {
             <div className='Footer__detail'>
               <p>Nestled in the gently sloping hills of Rubaya, Kashari, Mbarara district, lies JLV Mixed farm: A
 model Farm like no other! Featuring a wide array of livestock, food crops, cash crops and all
-things natural, we are a haven for all avid farmers.</p>
+things natural, we are a heaven for all avid farmers.</p>
             </div>
           </div>
           <div className='Footer__bullets'>

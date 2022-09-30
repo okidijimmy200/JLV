@@ -44,9 +44,9 @@ export default function Objective() {
         return;
     }
       emailjs.sendForm(
-        'service_aanza5p', 
-        'template_64ks50t', 
-        form.current, 'KK7gLCvHXjaZTXujO')
+        'service_qcw5fym', 
+        'template_ujolm7q', 
+        form.current, 'WClV94PwpJ-GrFraq')
         .then((result) => {
             console.log(result.text);
             setValues({ ...values, name: '', email: '',  number: ''})
@@ -88,8 +88,8 @@ long-horned bread of cattle. located on one of the gentle slopes of the Mbarara 
 to JLV mixed farm, Kashari Farm Resort offers an African filled jaw dropping mixed farm
 experience.
                   </p>
-      <h2><strong>By Misagga Ben</strong></h2>
-      <p>(American Musician)</p>
+      <h2><strong>By Rutosha JP</strong></h2>
+      <p>(Farmer)</p>
           </div>
                        
         </div>

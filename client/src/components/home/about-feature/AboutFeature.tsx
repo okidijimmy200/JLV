@@ -70,6 +70,7 @@ With our unique locale, we share a passion for the discovery and new experiences
 make your stay unforgettable. This passion is revealed through varied activities such as a
 traditional nature walks, a cooking class led by a master chef, or perhaps a haven for all avid
 tourists.
+
                         </p>
                         </div>
 }
