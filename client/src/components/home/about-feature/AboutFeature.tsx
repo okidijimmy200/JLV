@@ -53,7 +53,7 @@ export default function AboutFeature({farm, diary, resort, onclick, diaryHandler
                         Nestled in the gently sloping hills of Rubaya, Kashari, Mbarara district, lies JLV Mixed farm: A
                         model Farm like no other! Featuring a wide array of livestock, food crops, cash crops and all
                         things natural, we are a haven for all avid farmers. Be it someone who is willing to learn about
-                        farming from scratch, or someone trying to improve on the knowledge they already have.
+                        farming and from scratch, or someone trying to improve on the knowledge they already have.
                         </p>
                         </div>
 }
